@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher and Classmates List - BSIT-1D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .list-group {
+            list-style-type: none;
+            padding: 0;
+        }
+        .list-group li {
+            background-color: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        .list-group li img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .list-group li a {
+            color: #3b5998;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .list-group li a:hover {
+            text-decoration: underline;
+        }
+        .header-title {
+            color: #333;
+        }
+        h2 {
+            color: #333;
+        }
+        .class-title {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="header-title">Teacher and Classmates List</h1>
+    <p class="class-title">BSIT-1D</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Teacher</h2>
+        <ul class="list-group">
+            <!-- Replace the image URL and Facebook link with actual URLs for the teacher -->
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjUika_IVcHLc4uKJ54w1JIVnzdKnWEo5KGaNMbhiPqhPn2LQAc=s32-c" alt="Teacher"> <a href="https://facebook.com/teacher" target="_blank">Mr. John Ezekiel Talampas</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Classmates</h2>
+        <ul class="list-group">
+            <!-- Replace the image URLs and Facebook links with actual URLs for each classmate -->
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjVbEl_5ZAhOdXStkb_RjFKfZJP3QolaYEME7plSP8TbgrB64vU=s32-c" alt="Karl Vincent Basadre"> <a href="https://www.facebook.com/profile.php?id=100078870188157" target="_blank">Karl Vincent Basadre</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjXFEktVhV2RlXEuEZb_zls1g_dkja-uKvbYs0zH7ltmFiCmVA=s32-c"> <a href="https://facebook.com/ESTEVINBATINO" target="_blank">Leden John Viña</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjXFEktVhV2RlXEuEZb_zls1g_dkja-uKvbYs0zH7ltmFiCmVA=s32-c" alt="Steven Batino"> <a href="https://facebook.com/StevenBatino" target="_blank">Steven Batino</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjU6AxCazwymyTRrD18P562v7dJB8sjjBA4TzJz4O-MXQoHuZeQ=s32-c" alt="Christian Batutay"> <a href="https://facebook.com/ChristianBatutay" target="_blank">Marlon Naluan</a></li>
+            <li><img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-1/470192482_550721161166889_1128451761444101072_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeEc1uFLEncisU1WuliJnTPOOeGfGILd31Y54Z8Ygt3fVgezTZBaGz25v6zC6B_-VLUeJ3FJV2d8pub_zJ9hxpuZ&_nc_ohc=tVzmxltyKqAQ7kNvgH-NqGn&_nc_zt=24&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=ALivdWCZVNSQlOr7tdTMn5M&oh=00_AYD6bPefnsb94MUAA3qgHn91yXlZSOIh2jzsRmuNs_wf9w&oe=678544B2" alt="CHRISTIAN DAVE BATUTAY"> <a href="https://facebook.com/CHRISTIANDAVEBATUTAY" target="_blank">CHRISTIAN DAVE BATUTAY</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjV00LlIY4yejqVYn5U1oiTBrq_u7veu-RV2gV8JJyPj-_aNuOk=s32-c" alt="ALLIZADAWN BELLEZA"> <a href="https://facebook.com/ALLIZADAWNBELLEZA" target="_blank">ALLIZADAWN BELLEZA</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjW0NjuDlL8j7A3xnYO4Fc_Go1lgAnIMTwIQUOrEQP0O5y5TqAU=s32-c" alt="Allizadawn Belleza"> <a href="https://facebook.com/AllizadawnBelleza" target="_blank">JOHN REYNALD RAGSAC</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjWRVSE-p4fv39-YmnLdiPdTWAKqXImBYBIDYQ3JQf9DaXgx5mQ=s32-c" alt="Kent Bitayo"> <a href="https://facebook.com/KentBitayo" target="_blank">Kent Bitayo</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjWL3WulMWZ59eekpuJDTQc4MxuKhGjYI_T8L609KdcOAPfh_Ik=s32-c" alt="KENT AARON BITAYO"> <a href="https://facebook.com/KENTBITAYO" target="_blank">JOHN EARL TEMPLA</a></li>
+            <li><img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/468894499_4093223284256141_5160411462145431408_n.jpg?stp=c0.0.768.768a_dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeG3asgaLw6vQlHi2cYbgOWLNpeOCNYEBWk2l44I1gQFaed4Z99DSV_0g4sk4hAo4fvw94TyEGHFV3bJ7987LQU8&_nc_ohc=_p63tbWVKXUQ7kNvgFB9HjR&_nc_zt=24&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=AeihOQSYxigEMX-6t91AlQ2&oh=00_AYDng7iLramOVYui5A4mcJAfWdCUjldViFe5TxIidUpTfQ&oe=6785418C" alt="DANE MARK BONGABONG"> <a href="https://facebook.com/DANEMARKBONGABONG" target="_blank">DANE MARK BONGABONG</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjV9prvQ9GWdyTCtflfj6ly4-veI1CRDXttAC3AOXmkkovfHEeQ=s32-c" alt="COLEIN LYE CAGOL"> <a href="https://facebook.com/COLEINLYECAGOL" target="_blank">COLEIN LYE CAGOL</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjVwUHe0MWTam2jf0MlTf5gCGpPz8I6w9P1aouvL7XSafFo_e5U=s32-c" alt="Kenneth Rey Cajardo"> <a href="https://facebook.com/KennethReyCajardo" target="_blank">CRIS JOHN DALE TORRECARICON</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjVTjfWgdFT5nRZbWmdtWQiITrJQShk76V7fiyWbgX_-TzETrSY=s32-c" alt="REMBRANDT CARBON"> <a href="https://facebook.com/REMBRANDTCARBON" target="_blank">REMBRANDT CARBON</a></li>
+            <li><img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/456703662_488953964082398_6414890482165423114_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeErQEcS8CoUPLBShSJGE7gVG-fkCGf_jO8b5-QIZ_-M771Wa-BBMlt4RJingRLhUsal92eomui7jYy4u-eCl1fq&_nc_ohc=gl76r5lbsjcQ7kNvgFSleQf&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=AwzZ9dOY_F9FpODmo5OdEMj&oh=00_AYBbONdnMvpIsZf0p98uYL3nnWm-fQvOOl2I1VjdJNYAjA&oe=678552A6" alt="Jasterkim Castillo"> <a href="https://facebook.com/JasterkimCastillo" target="_blank">Jasterkim Castillo</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjWiTfPoKIA4ISi1wdeCpEuroST4P6Ym3_4pw04DshPO-_OQ9W4=s32-c" alt="KEZIAH CONSTANTINO"> <a href="https://facebook.com/KEZIAHCONSTANTINO" target="_blank">KEZIAH CONSTANTINO</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjXhvIcGluKZbfrfsbNEb6CL-H4OzQmGf-UUSNpN2lbBgtMt_STK=s32-c" alt="Francis Dave Davila"> <a href="https://facebook.com/FrancisDaveDavila" target="_blank">Francis Dave Davila</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjUa-77zXx1FqqPlRyyR_XhmpFwWP978VZyj5aRtYvQ-e2azbuY=s32-c" alt="JOEY DEGAMO"> <a href="https://facebook.com/JOEYDEGAMO" target="_blank">JOEY DEGAMO</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjW-h7g_DNgZIyXTDKuNfD7gCxfUw0Y6Xcr7Yd-qefItEKPTTqw=s32-c" alt="JUSTINE DELA ROSA"> <a href="https://facebook.com/JUSTINEDELAROSA" target="_blank">JUSTINE DELA ROSA</a></li>
+            <li><img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/470205949_3688945237917151_4346003433722033154_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEpKtSczELuGBO0ualZ4U-AIZsY4lyLXlshmxjiXIteWz-z8joYOj7U8DYy2XTB5qTQYU6wx5T7v7KMx7JA9VSy&_nc_ohc=BMIaVieN82AQ7kNvgH8wV8a&_nc_zt=24&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=AJXQXCsloZ0pQj0qkZPIqlY&oh=00_AYCwUehzYoCe1tAOF1zemNWoZbNCyI3LCj80uTlpdAUBvA&oe=678550E1" alt="KENT EXEQUIEL GUATNO"> <a href="https://facebook.com/KENTEXEQUIELGUATNO" target="_blank">KENT EXEQUIEL GUATNO</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjVlUzcj0mvVE-amZWhIW6-gQvmJGsHygNHrBf4Ntsid8Is35pM=s32-c" alt="Gleibb Hilario"> <a href="https://facebook.com/GleibbHilario" target="_blank">kyrr davonne timbang</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjW5oxL51o5WJEpTWmkiHe0fDcgyf62inm7_WjUw_uIbUjWFmq8=s32-c" alt="GLEIBB HILARIO"> <a href="https://facebook.com/GLEIBBHILARIO" target="_blank">GLEIBB HILARIO</a></li>
+            <li><img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/425702129_919916893177270_6990097698523670403_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGILxKJ6KzZx1u7VrIiG_wiTBr5KwJcadxMGvkrAlxp3EM6qUpV_3DO0TC_mknma_WvH9SWTNXzoFtiMZU3lFTq&_nc_ohc=ot3lddtfS7gQ7kNvgEH7vOg&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=AV_X9PLi6G_r7aWXeqN4Nvm&oh=00_AYBw9ktZFzWa1CNIq534OiKRNqBOPXmX_1wHRMWTnnzLvA&oe=678536EB" alt="sojon jeniel"> <a href="https://facebook.com/sojonjeniel" target="_blank">sojon jeniel</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjUPyA3GuasFnSWpU9-nJzKdKEZeF-5-5fJtbppcjDtbNiiza9U=s32-c" alt="SIEM JOHN PHILIP"> <a href="https://facebook.com/SIEMJOHNPHILIP" target="_blank">SIEM JOHN PHILIP</a></li>
+            <li><img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/468395105_576814985000705_186653857026588925_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_aid=0&_nc_eui2=AeHbAABpUZOGf48n8TdBkQ0OILdyINoBiiQgt3Ig2gGKJHGqfb4Z9eTA9encBxAfEh5oa-sgppmF_Fz4KBr6Gg1p&_nc_ohc=JJvJouSuMU4Q7kNvgHQtewj&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=AieC6yyJcbUyt8hpTlWiC-j&oh=00_AYAmfGbBhIysiR3E3DP6AKB_7dRBvNW1Z9ZmAmy1BnOhLw&oe=678555DE" alt="SHERWIN JUSICO"> <a href="https://facebook.com/SHERWINJUSICO" target="_blank">SHERWIN JUSICO</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjVcipP6EQBPX8tz3kbENoyk0RtYL_HH9FPOSGTp7ASrRdhaEb8=s32-c" alt="DANCE PEARL LAZANAS"> <a href="https://facebook.com/DANCEPEARLLAZANAS" target="_blank">DANCE PEARL LAZANAS</a></li>
+
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjWhBbQymm2w6Vp5FwintUHoxujLObd89hJhoUA69-z7zvPzOy8X=s32-c" alt="Aimee Marj Meñoza"> <a href="https://facebook.com/AimeeMarjMeñoza" target="_blank">Aimee Marj Meñoza</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjUOfmltHW_UprUdvLKTh1kKVlKVf_KwArC6vpqmFcJrnZvA4b0=s32-c" alt="KENTH JAN MILLAN"> <a href="https://facebook.com/KENTHJANMILLAN" target="_blank">KENTH JAN MILLAN</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjXPOsH-jKDKXVc4lfPGD8PDZeaivtKmO9tOSTXfED2k9qTXRcI=s32-c" alt="Jemima Monterola"> <a href="https://facebook.com/JemimaMonterola" target="_blank">Jemima Monterola</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjXwYFxqrbeSy2MIDVOeMhsUrKpNCHPHQtnJFG9Ek2QSc-iyVaFV=s32-c" alt="MARLON NALUAN"> <a href="https://facebook.com/MARLONNALUAN" target="_blank">Jericho Torres</a></li>
+            <li><img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/450271473_7688386127882565_5676061685592973441_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGSHC2g2UFIzY53DGUyAxn8tvKX6KhDctC28pfoqENy0B-I6axXOdlGDKzWS5PRTpgKTZZQ5EFdbpvTSf6vN05E&_nc_ohc=32_Tn52WgkQQ7kNvgFIg5GW&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=A2fEV55mGTnOkogmO_1wONl&oh=00_AYDhtY1IqI7jCWWh2_zOg6cS9CEZvXYbY3_BrKmXI3fW6w&oe=678550DC" alt="CHRISTIAN PAUL OHAYAS"> <a href="https://facebook.com/CHRISTIANPAULOHAYAS" target="_blank">CHRISTIAN PAUL OHAYAS</a></li>
+            <li><img src="//lh3.googleusercontent.com/a-/ALV-UjWpXJz3ttdDxCsbf_TNgYrsJ4-A29amhGXM4a3y2wmiZGbW280=s32-c" alt="Carlos Jay Pagacita"> <a href="https://facebook.com/CarlosJayPagacita" target="_blank">Carlos Jay Pagacita</a></li>
+            <li><img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/471418340_914994617448839_6343258267658117323_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeG8ht87pIOoS68UxVwZqSfKgH51kZmJ2xaAfnWRmYnbFlJN9KLlu5xuB7Ba6zwqJKzxEfqbU9b6rbWOFcuvX3Kk&_nc_ohc=c9-dMKjfmYsQ7kNvgH429XE&_nc_zt=24&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=AcL2vmP4Hm-m5RhXHHKPvG-&oh=00_AYBZXpdgedFlUgvgPcdSBxmbQhQ8fLA3FMyU02J4a_i7Kw&oe=678546A2" alt="John Michael Palomar"> <a href="https://facebook.com/JohnMichaelPalomar" target="_blank">John Michael Palomar</a></li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
